@@ -17,39 +17,39 @@
 
 
 <p align="center">
-  THorse is a RAT (Remote Administrator Trojan) Generator for Windows/Linux systems written in Python 3.
+  Thorse这是一款用Python编写的RAT(Remote Administrator Trojan)，运行于Windows/Linux系统
 </p>
               
                         This small python script can do really awesome work.
 
 ## Disclaimer
 <p align="center">
-  :computer: This project was created only for good purposes and personal use.
+  :computer: 该项目仅出于‘良好目的’和*个人使用*而创建。
 </p>
 
-THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. YOU MAY USE THIS SOFTWARE AT YOUR OWN RISK. THE USE IS COMPLETE RESPONSIBILITY OF THE END-USER. THE DEVELOPERS ASSUME NO LIABILITY AND ARE NOT RESPONSIBLE FOR ANY MISUSE OR DAMAGE CAUSED BY THIS PROGRAM.
+本软件按“原样”提供，不提供任何形式的保证。使用本软件的风险由您自行承担。使用完全由最终用户负责。开发人员不承担任何责任，也不对本程序造成的任何误用或损害负责。
 
 ## Features
-- [x] Works on Windows/Linux
-- [x] Notify New Victim Via Email
-- [x] Undetectable
-- [x] Does not require root or admin privileges
-- [x] Persistence
-- [x] Sends Screenshot of Victim PC's Screen via email
-- [x] Give Full Meterpreter Access to Attacker
-- [x] Didn't ever require metesploit installed to create trojan
-- [x] Creates Executable Binary With Zero Dependencies
-- [x] Create less size ~ 5mb payload with advance functionality
-- [x] Obfusticate the Payload before Compiling it, hence Bypassing few more antivirus
-- [x] Generated Payload is Encoded with Base64, hence makes extremely difficult to reverse engineer the payload
-- [x] Kill Antivirus on Victim PC & Tries to disable Windows Security Center
-- [x] Awesome Colourful Interface to generate payload
-- [x] On Attacker Side: While Creating Payload, Script Automatically Detects Missing Dependencies & Installs Them
-- [x] Able to add custom Icon to evil file
-- [x] **Built-in Binder** which can bind executable to **Any File** [.pdf, .txt, .exe etc], Running legitimate file on front end & evil codes in back-end as a service. 
-- [x] Checks for **Already Running Instance** on System, If running instance found, then only legitimate file is executed [**Multiple Instance Prohibiter**].
-- [x] Attacker can Create/Compile for Both **Windows/Linux OS** Using Linux System, But Can only Create/Compile **Windows** Executable using Windows Machine
-- [x] **Retrieves Saved Passwords** from victim System and sends it to Attacker.
+- [x] 运行于Windows/Linux操作系统
+- [x] 通过电子邮件通知新的受害者
+- [x] 检测不到
+- [x] DOES 不需要 root 或管理员权限
+- [x] 坚持
+- [x] 通过电子邮件发送受害者 PC 屏幕的屏幕截图
+- [x] 向攻击者提供完全的计量器访问权限
+- [x] 不需要安装 metesploit 来创建木马
+- [x] 创建具有零依赖项的可执行二进制文件
+- [x] 创建尺寸更小的 ~ 5MB 有效负载，具有高级功能
+- [x] 在编译之前混淆有效负载，从而绕过更多的防病毒软件
+- [x] 生成的有效载荷使用 Base64 编码，因此对有效载荷进行逆向工程非常困难
+- [x] 在受害者PC上杀死防病毒软件并尝试禁用Windows安全中心
+- [x] 令人敬畏的彩色界面来生成有效载荷
+- [x] 在攻击者方面：在创建有效负载时，脚本会自动检测缺失的依赖项并安装它们
+- [x]能够将自定义图标添加到邪恶文件
+- [x]**内置活页夹**，可以将可执行文件绑定到**任何文件**[.pdf、.txt、.exe等]，在前端运行合法文件，在后端运行恶意代码作为服务。
+- [x] 检查系统上的**已在运行的实例**，如果找到正在运行的实例，则只执行合法文件[**多实例禁止**]。
+- [x]攻击者可以使用 Linux 系统为 Windows/Linux 操作系统创建/编译，但只能使用 Windows 计算机创建/编译 Windows** 可执行文件
+- [x] **从受害系统中检索已保存的密码**并将其发送给攻击者。
 
 | Supported Retrives, Tries to Retrive Saved Passwords from : |
 | ----------------------------------------------------------- |
